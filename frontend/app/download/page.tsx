@@ -114,6 +114,27 @@ export default function AppDownloadPage() {
                   </span>
                   <span>Direct Download • No Registration</span>
                 </div>
+
+                {/* Alternative GitHub Mirror Link */}
+                <div className="flex items-center gap-2 pt-1">
+                  <a
+                    href="https://github.com/Sainathkotage/onion-app/releases/download/v1.0.0/onion-iq.apk"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex-1 text-center py-2 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-neutral-300 hover:text-white transition flex items-center justify-center gap-1.5"
+                  >
+                    <span>Download via GitHub Cloud Mirror</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                  <a
+                    href="https://github.com/Sainathkotage/onion-app/releases/tag/v1.0.0"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="py-2 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-neutral-400 hover:text-white transition"
+                  >
+                    v1.0.0 Notes
+                  </a>
+                </div>
               </div>
 
               {/* Technical Specifications Grid */}
