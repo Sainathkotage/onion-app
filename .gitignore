@@ -1,0 +1,44 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Storage & Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+frontend/public/downloads/*.apk
+dataset/*.zip
+
+# Flutter & Mobile
+frontend_mobile/.dart_tool/
+frontend_mobile/.flutter-plugins
+frontend_mobile/.flutter-plugins-dependencies
+frontend_mobile/.widget_preview/
+frontend_mobile/build/
+frontend_mobile/android/.gradle/
+frontend_mobile/android/local.properties
+frontend_mobile/android/app/release/
+*.apk
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

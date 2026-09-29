@@ -1,0 +1,28 @@
+name: onion_iq_mobile
+description: "OnionIQ Mobile - Automated Onion Quality Assessment & Grading App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  fl_chart: ^1.2.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/models/
+    - assets/models/onion_classifier.tflite
